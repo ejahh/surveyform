@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="survey.css">
+    </head>
+
+    <body>
+
+    
+        <h1 id="title">SURVEY FORM</h1>
+        <p id="description">Basta Try Mo Lang Simbagan Geww.</p>
+<div>
+        <!-- FORM FORM FORM-->
+        <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+            <fieldset>
+            <label id="name-label">Name
+                <input type="text" id="name" required name="name" placeholder="Enter your full name">
+            </label>
+
+            <label id="email-label">Email
+                <input type="email" id="email" required name="email" placeholder="Enter your email">
+            </label>
+
+            <label id="number-label">Age
+                <input type="number" id="number" required name="age" min="18" max="50" placeholder="How old are you?">
+            </label>
+
+            <label for="select">Which option best describes your status?
+                <select id="dropdown">
+                    <option value="">Select status</option>
+                    <option value="1">Taken</option>
+                    <option value="2">Study First Pero Kapag <br> Macrushback Edi Forda Go</option>
+                    <option value="3">Not Reay For Committment Pero Pag Tumibok Ang Puso Wala Nang Magagawa Kundi Sundin Ito</option>
+                    <option value="4">Your Honor Hindi Ko Na Po Maalala</option>
+                </select>
+            </label>
+            </fieldset>
+
+            <fieldset>
+        <legend>What is your ideal partner?</legend>
+            <label class="radio">
+                <input type="radio" name="ideal" required class="inline">Man of God
+            </label>
+
+            <label class="radio">
+                <input type="radio" name="ideal" required class="inline">Romantic
+            </label>
+
+            <label class="radio">
+                <input type="radio" name="ideal" required class="inline" >Well-Dressed
+            </label>
+            <label class="radio">
+                <input type="radio" name="ideal" required class="inline">Introverted-
+            </label>
+            <label class="radio">
+                <input type="radio" name="ideal" required class="inline">Good Humour
+            </label>
+            <label class="radio">
+                <input type="radio" name="ideal" required class="inline">Academic Achiever
+            </label>
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>What are your three most prefered love languages?</legend>
+            <label class="love">
+                <input type="checkbox" id="time" value="" name="love" class="inline">Quality Time
+            </label>
+            <label class="love">
+                <input type="checkbox" id="words" value="" name="love" class="inline">Words of Affirmation
+            </label>
+            <label class="love">
+                <input type="checkbox" id="acts" value="" name="love" class="inline">Acts of Service
+            </label>
+
+            <label class="love">
+                <input type="checkbox" id="touch" value="" name="love" class="inline">Physical Touch
+            </label>
+            <label class="love">
+                <input type="checkbox" id="gifts" value="" name="love" class="inline">Receiving Gifts
+            </label>
+
+            <label class="what">What do  you think is the way for relationships to last a lifetime?
+                <textarea id="textarea" name="textarea" rows="5"
+                placeholder="Enter your answer here...."></textarea>
+            </label>
+        </fieldset>
+
+            <label><input type="submit" id="submit" value="Submit"></label>
+        </form>
+    </div>
+
+    </body>
+</html>

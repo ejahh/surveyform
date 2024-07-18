@@ -1,0 +1,99 @@
+body, html {
+    
+   background-color:rgb(221, 153, 187);
+    font-size: 24px;
+    height: 100%;
+    background-image: url("love1.png");
+    background-attachment: scroll;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+
+}
+
+
+form {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+h1, p {
+    text-align: center;
+}
+
+
+input, textarea {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 97%;
+    min-height: 2em;
+}
+#dropdown{
+    width: 99%;
+}
+
+.radio {
+    display: block;
+   
+    font-size: medium;
+    margin-inline-start: 3px;
+   
+    font-family: monospace;
+}
+
+.love {
+    font-size: medium;
+}
+
+
+.what {
+    margin-top: 10px;
+}
+
+
+select{
+    
+    display: inline;
+    font-size: large;
+}
+
+.inline {
+   display: inline;
+   vertical-align: middle;
+    width: unset;
+    font-family: monospace;
+}
+
+
+label {
+    display: block;
+}
+
+div {
+    width: 80%;
+    background-color: rgb(171, 175, 229);
+    margin: auto;
+    
+}
+
+fieldset {
+    border: none;
+}
+
+textarea {
+    display: block;
+}
+#submit {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: mediumpurple;
+    
+    background-color:rgb(213, 152, 198);
+    font-size: medium;
+    font-display: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
